@@ -1,0 +1,183 @@
+*{
+    font-family:'Segoe UI',Tahoma,Verdana,sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.data{
+    letter-spacing: 0.01em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+header{
+    background-color: #1244E8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+header div{
+    padding: 0.5em 4em 0.5em 1em;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.hero{
+    height: 19.5em;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+.hero img{
+    max-width: 35%;
+    border-radius: 0.6em;
+}
+.resumen{
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.resumen button{
+    margin-top: 3em;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 0.6em;
+    align-self: center;
+    width: 50%;
+}
+.contenido{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+.tarjeta{
+    border-radius: 0.5em;
+    background-color: #0026A3;
+    width: 23%;
+    text-align: center;
+    color: white;
+}
+.tarjeta img{
+    max-width: 100%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+.tarjeta h3{
+    margin-top: 0.5em;
+}
+.tarjeta p{
+    margin: 1.5em;
+}
+.cta{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 10em;
+    align-items: center;
+    justify-content: center;
+}
+.cta img{
+    width: 35%;
+    margin: 2em 0;
+}
+.info{
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.info button{
+    margin-top: 3em;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 0.6em;
+    align-self: center;
+    width: 50%;
+}
+.test-contenedor{
+    justify-content: center;
+    display: flex;
+    gap: 10em;
+}
+.testimonios{
+    border: 1px solid rgb(119, 117, 117);
+    padding: 1em;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+}
+.testimonios p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: center;
+}
+.user-info img{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+.user-info div{
+    text-align: left;
+}
+.user-info strong{
+    display: block;
+    font-size: 15px;
+    color: #222;
+}
+.user-info span{
+    font-size: 12px;
+    color: #666;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    background-color: #0026A3;
+    color: white;
+    text-align: center;
+}
+.faq *{
+    margin: 1.5em 0;
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.redes{
+    width: 60%;
+    text-align: center;
+}
+.redes img{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+}
+.contacto{
+    width: 40%;
+}
+.copy{
+    position: absolute;
+    align-self: end;
+}
