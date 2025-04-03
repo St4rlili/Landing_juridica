@@ -37,7 +37,7 @@ header div a{
     gap: 10em;
 }
 .hero img{
-    max-width: 35%;
+    width: 35%;
     border-radius: 0.6em;
 }
 .resumen{
@@ -91,6 +91,7 @@ header div a{
 .cta img{
     width: 35%;
     margin: 2em 0;
+    border-radius: 0.5em;
 }
 .info{
     text-align: center;
@@ -180,4 +181,90 @@ footer{
 .copy{
     position: absolute;
     align-self: end;
+}
+
+@media(width<600px){
+    header div{
+        font-size: 12px;
+        padding: 1.5em 1em;
+    }
+    header div img{
+        width: 100%;
+    }
+    .hero{
+        margin-top: -3em;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2em;
+    }
+    .hero *{
+        width: 85%;
+        align-self: center;
+    }
+    .hero img{
+        width: 80%;
+        align-self: center;
+    }
+    .resumen button{
+        margin-top: 1.5em;
+    }
+    .data{
+        gap: 5em;
+    }
+    .logo{
+        content:url(imgs/logo.png);
+    }
+    .contenido{
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+    }
+    .tarjeta{
+        width: 80%;
+    }
+    .cta{
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+    }
+    .cta img{
+        width: 80%;
+        margin: 2em 0;
+    }
+    .info{
+        width: 80%;
+        flex-direction: column;
+    }
+    .info button{
+        margin-top: 1em;
+        width: 70%;
+    }
+    .test-contenedor{
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+    }
+    .testimonios{
+        width: 80%;
+    }
+    .faq *{
+        margin: 1em 1em;
+    }
+    footer{
+        align-items: start;
+    }
+    .redes{
+        width: 50%;
+        text-align: center;
+    }
+    .redes img{
+        width: 2em;
+        height: 2em;
+        margin: 0.5em;
+    }
+    .contacto{
+        width: 50%;
+    }
 }
