@@ -184,6 +184,10 @@ footer{
 }
 
 @media(width<600px){
+    header{
+        max-width: 100%;
+        overflow: scroll;
+    }
     header div{
         font-size: 12px;
         padding: 1.5em 1em;
@@ -254,6 +258,7 @@ footer{
     }
     footer{
         align-items: start;
+        padding: 0em 1em;
     }
     .redes{
         width: 50%;
